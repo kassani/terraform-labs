@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "nsgs" {
-   name         = "NSGs"
+   name         = "devops-terraform"
    location     = "${var.loc}"
    tags         = "${var.tags}"
 }
